@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(226, 226, 226);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#nav_bar{
+    background-color: rgb(48, 71, 112);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 220px; margin-right: 220px;
+
+}
+
+.item:hover{
+    background-color: rgb(97, 108, 204);
+
+    border-radius: 10px;
+}
+
+a{
+    color: white;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#banner{
+    margin-top: 20px; margin-bottom: 20px; margin-left: 220px; margin-right: 220px;
+    background-color: rgb(180, 180, 180);
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.flex-child{
+    flex: 1;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 10px;
+    height: 80px;
+    margin-right: 220px;
+}  
+
+.flex-child:first-child{
+    margin-left: 220px; margin-right: 20px;
+} 
+
+.heading{
+    display: flex;
+    justify-content: center;
+
+}
+
+.text{
+    color: white;
+    background-color:rgb(48, 71, 112);
+    border: 2px solid black;
+    text-align: left;
+    padding: 20px;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+@media(max-width: 960px){
+    #nav_bar{
+        margin-left: 20px; margin-right: 20px;
+    }
+
+    #banner{
+        margin-top: 20px; margin-bottom: 20px; margin-left: 20px; margin-right: 20px;
+    }
+
+    .flex-child{
+        margin-right: 20px;
+    }
+
+    .flex-child:first-child{
+        margin-left: 20px;
+    }
+}
